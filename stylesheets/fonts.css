@@ -1,0 +1,283 @@
+@font-face {
+    font-family: ArcherBoldPro;
+    src: url(fonts/Archer-Bold-Pro.otf);
+}
+
+@font-face {
+    font-family: CubanoRegular;
+    src: url(fonts/Cubano-Regular.otf);
+}
+
+@font-face {
+    font-family: NeutraDisplayBold;
+    src: url(fonts/NeutraDisplayBold.otf);
+}
+
+@font-face {
+    font-family: NeutraDisplayBoldAlt;
+    src: url(fonts/NeutraDisplayBoldAlt.otf);
+}
+
+
+/***************
+ * NAV
+ ****************/
+ #menu_2 a font{
+	font-family: NeutraDisplayBold !important;
+	font-size: 16px !important;
+	letter-spacing: 0.4em;
+ }
+ 
+ 
+ /***************
+ * SECTION MENU
+ ****************/
+ #products-table a{
+	font-family: NeutraDisplayBold !important;
+	color: #66CFE3 !important;
+ }
+ 
+ .inner{
+	height: auto !important;
+ }
+ 
+ 
+ /***************
+ * SECTION Encuentranos
+ ****************/
+ #suc_busc{
+	background: #17ddc5 !important;
+ }
+ #select_estados,
+ #sucursal_busqueda{
+	border: 0px!important;
+ }
+ #suc tr > td:nth-child(2) > a{
+	font-family: CubanoRegular !important;
+	font-size: 45px !important;
+ }
+  #suc tr > td:nth-child(4){
+	font-family: NeutraDisplayBoldAlt !important;
+	font-size: 19px !important;
+ }
+ 
+ 
+ 
+ /***************
+ * SECTION HISTORIA
+ ****************/
+ .content-history{
+	display: block;
+       max-width: 596px;
+    max-height: 476px;
+    margin: 10px auto;
+    background: url(../imagenes/historia/marco_texto_1_b_0_b.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 100px;
+	margin-bottom: 100px;
+}
+
+ .content-history p{
+	display: block;
+	text-align: center;
+	font-family: NeutraDisplayBoldAlt !important;
+	font-size: 19px !important;
+	max-width: 600px;
+	margin: 30px auto;
+    text-transform: uppercase;
+}
+
+ /***************
+ * SECTION CONTACTO
+ ****************/
+#tabla_c font{
+	font-family: NeutraDisplayBoldAlt !important;
+	font-size: 19px !important;
+	color: #000;
+}
+
+#titulo_imagen_1 img{
+	max-width: 539px;
+	    display: block;
+    margin: 0 auto;
+}
+
+
+input[type=text], 
+textarea,
+select{
+	background: #f1f1f2;
+	border: 1px solid red; 
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 0px solid #000000;
+}
+
+
+
+#nuevoMenu p{
+	padding-right: 100px;
+	padding-left: 100px;
+	font-family: NeutraDisplayBold;
+	    font-size: 19px;
+}
+.bg-pink{
+		background: #ff0068;
+}
+.bg-border{
+	display: block;
+    max-width: 849px;
+    padding-top: 100px;
+	min-height: 1075px;
+    margin: 10px auto;
+    background: url(../imagenes/nuevo-menu/marco.png) no-repeat;
+    background-size: 100% 100%;
+	margin-bottom: 100px;
+	text-align: center;
+} 
+
+.text-center{
+	text-align: center;
+}
+#nuevoMenu table{
+    display: table;
+    margin: 0 auto;
+}
+#nuevoMenu	.title-blue{
+	padding-right: 0px;
+	padding-left: 0px;
+	font-family: CubanoRegular;
+	color: #66cfe3;
+}
+
+
+#mensaje > img{
+	max-width: 811px;
+	display: block;
+	margin: 0 auto;
+}
+
+
+#products-table a{
+	text-transform: uppercase;
+}
+
+@media (max-width: 720px) {
+	video{
+		width: 500px !important;
+	}
+}
+
+
+#menu_botones img{
+	padding: 30px 0px;
+	
+}
+@media (max-width: 670px) {
+
+
+		
+
+		#nuevo_menu img{
+			width: 80% !important;
+		}    
+
+	 .content-history{
+		 padding-left: 10px;
+		 padding-right: 10px;
+	 }
+	 
+	.content-history p,
+	#rs_3{
+		display: block;
+		height: 100%;
+		font-size: 14px !important;
+		
+	}
+	
+	#nuevoMenu p{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.bg-border{
+		    padding-top: 50px;
+	}
+	
+	video{
+		width: 300px !important;
+	}
+	
+	
+	#div_sucursales{
+		    width: 90% !important;
+	}
+	
+	.content-history,
+	#rs_3{
+		padding-top: 100px!important;
+		padding-bottom: 100px!important;
+		height: auto!important;
+		max-height: inherit!important;
+		
+	}
+	
+	.show-moviel{
+		display: block!important;
+		padding-bottom: 5em;
+	}
+	
+	.hiden-moviel{
+		display: none !important;
+	}
+
+	
+	#menu_botones{
+		width: 100%!important;
+	}
+	#menu_botones img{
+		width: 70px!important;
+	}
+	#imagen_div,
+#imagen_div_1{
+	height: auto!important;
+}
+
+	
+
+}
+
+#menu_2 td{
+	text-align: center;
+}
+
+.menu-bull{
+	 text-align: center;
+    color: #fff;
+}
+
+.show-moviel{
+		display: none;
+		
+	}
+	
+	.hiden-moviel{
+		display: block;
+	}
+
+#imagen_div,
+#imagen_div_1{
+	overflow: hidden;
+    height: 350px;
+}
+
+input[type=image]{
+	width: 30px;
+    position: relative;
+    top: 9px;
+    left: 5px;
+}
+	
+	
+
+}
